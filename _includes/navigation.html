@@ -1,11 +1,16 @@
 <nav class="header-nav">
   <ul>
+    Kristiyan Stoyanov &nbsp&nbsp
     {% for item in site.data.navigation %}
-      <li >
+      <li>
         <a href="{{ item.link }}" 
         {% if page.url == item.link %} 
         class="selected" 
-        {% else %} 
+        {% elsif item.link == "https://github.com/KrisKStoyanov" %}
+        class = "external"
+        {% elsif item.link == "https://www.linkedin.com/in/kristiyan-stoyanov-121651295/" %} 
+        class = "external"
+        {% else %}
         class="available" 
         {% endif %}
         >

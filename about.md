@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Kristiyan Stoyanov - About
 ---
 # The short version on how I got here
 

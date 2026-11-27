@@ -136,6 +136,19 @@ body > *
   transition: 0.3s;
 }
 
+.custom-hover-link-right-text
+{
+  float: right;
+  text-decoration: none;
+  color: inherit;
+}
+
+.custom-hover-link-right-text:hover
+{
+  color:#3370cd;
+  transition: 0.3s;
+}
+
 .slideshow-container
 {
   position: relative;
